@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const authApi = createApi({
   reducerPath: "authApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://order-management-2.onrender.com/api/",
+    baseUrl: "https://order.novasynced.com/api/",
   }),
   endpoints: (builder) => ({
     login: builder.mutation({

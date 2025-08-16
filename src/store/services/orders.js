@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { logout } from "store/slices/authSlice";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://order-management-2.onrender.com/api",
+  baseUrl: "https://order.novasynced.com/api",
   prepareHeaders: (headers) => {
     const token = localStorage.getItem("token");
     if (token) {
